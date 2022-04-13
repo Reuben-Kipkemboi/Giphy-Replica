@@ -1,6 +1,6 @@
 #navbarNavDropdown ul li a{
     border-bottom: 4px solid #31bafc;
-    padding-left: 30px;
+    padding-left: 10px;
     width: 95%;
     text-align: center
     
@@ -13,4 +13,10 @@ li a .btn{
 }
 .navbar-nav .nav-item a:hover{
     background:linear-gradient(to right, #31bafc, #686efc);
+}
+#drop{
+    margin-left: 20px;
+}
+#drop .log-in{
+    width: 200px;
 }
