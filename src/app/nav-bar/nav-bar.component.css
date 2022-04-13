@@ -1,3 +1,7 @@
+.container-fluid{
+    /* margin-left:2% */
+}
+
 #navbarNavDropdown ul li a{
     border-bottom: 4px solid #31bafc;
     padding-left: 10px;
@@ -5,9 +9,7 @@
     text-align: center
     
 }
-li a .btn{
-    /* width: 200%; */
-}
+
 .other li a .btn{
     border:none;
 }
@@ -19,4 +21,10 @@ li a .btn{
 }
 #drop .log-in{
     width: 200px;
+    border-radius: 0;
+}
+#drop .btn-primary{
+    background-color: #686efc;
+    border-radius: 0;
+    width: 120px;
 }
