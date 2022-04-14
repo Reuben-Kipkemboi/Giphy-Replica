@@ -14,6 +14,8 @@
     margin-top: -30px;
     margin-left: 30%;
     z-index: 2;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 7vh;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    line-height: 1.4;
     
 }

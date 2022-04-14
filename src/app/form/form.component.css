@@ -1,5 +1,15 @@
 .input-group> input[type="text"]{
-    max-width: 90% !important;
+    max-width: 94% !important;
     margin-left:1%
 
+}
+#basic-addon2{
+    background:linear-gradient(to right, #686efc, #cc5bb3);
+}
+#btn{
+    background:transparent !important;
+    border: none;
+}
+#btn fa-icon{
+    color: white;
 }

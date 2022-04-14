@@ -1,5 +1,27 @@
 <div class="row">
-    <div class="container">
-        <p class="head text-white ms-4 fs-4 mt-2">Trending</p>
-    </div>
+  <div class="container">
+    <p class="head text-white ms-5 fs-4 mt-2">Trending</p>
+  </div>
+</div>
+
+<div class="container content">
+
+  <div class="col-md-12" *ngFor="let gifsImage of gifsImages">
+    <img src="{{gifsImage.images.downsized.url}}" alt="Trending Gifs" />
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="container">
+    <p class="head text-white ms-5 fs-4 mt-5 mb-4">Search</p>
+  </div>
+</div>
+
+<div class="content-two container">
+
+  <div class="col-md-12" *ngFor="let gifsImage of gifsImages">
+    <img src="{{gifsImage.images.downsized.url}}" alt="Trending Gifs" />
+  </div>
+
 </div>

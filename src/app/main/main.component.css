@@ -1,0 +1,21 @@
+.content{
+     display:grid;
+     grid-template-columns: 30% 30% 30%;
+     grid-row-gap:20px;
+}
+img{
+    width:500px;
+    height:250px;
+    object-fit: cover;
+}
+
+.content-two{
+    display:grid;
+    grid-template-columns: 30% 40%;
+    /* grid-gap:4px; */
+}
+img{
+   width:300px;
+   height:250px;
+   object-fit: cover;
+}
