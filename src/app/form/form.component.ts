@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainService } from '../mainService';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-form',
@@ -9,19 +9,11 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 })
 export class FormComponent implements OnInit {
   gifsImages: any[] = [];
-  searchTerm!: string;
-  // searchTerm: string;
+  // searchTerm: string |any;
   constructor(public mainService: MainService) {}
-  faMagnifyingGlass = faMagnifyingGlass;
   
-  // }
 
-  searchNewGifs() {
-    this.mainService.searchGifs(this.searchTerm).subscribe((data) => {
-      this.gifsImages = data.data
-    })
-    alert("searching for " + this.searchTerm);
-  }
+  
 
   ngOnInit(): void {}
 
