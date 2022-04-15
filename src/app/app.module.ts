@@ -14,6 +14,7 @@ import { FormComponent } from './form/form.component';
 import { MenuComponent } from './menu/menu.component';
 import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     NavBarComponent,
     FormComponent,
     MenuComponent,
-    MainComponent
+    MainComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
