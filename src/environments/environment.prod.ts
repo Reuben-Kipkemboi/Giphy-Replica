@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: false,
+  myGiphyApiKey:'FV1GLCyMvLZSFen2Hce3nVzK5A8vZkBE'
 };

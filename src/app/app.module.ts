@@ -16,6 +16,7 @@ import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
 import { SearchComponent } from './search/search.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SearchResultsComponent } from './search-results/search-results.componen
     MenuComponent,
     MainComponent,
     SearchComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,

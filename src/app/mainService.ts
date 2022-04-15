@@ -17,11 +17,7 @@ export class MainService {
     );
   }
   // Load more Gifs
-  fetchMoreTrendingGifs(count: number): Observable<any> {
-    return this.http.get<any>(
-      `https://api.giphy.com/v1/gifs/trending?api_key=${environment.myGiphyApiKey}&limit=${count}&rating=g`
-    );
-  }
+  
   // for searching endpoint or searching of gifs using the url stored in our environment
   searchGifs(searchTerm:string): Observable<any> {
     return this.http.get(
